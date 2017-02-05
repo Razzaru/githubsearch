@@ -9,7 +9,6 @@ export class GithubService{
   private client_secret = '24d020df6ef0e3000393dd56d7aa2d0090027be3';
 
   constructor(private _http: Http) {
-    console.log('Github Service Ready...');
     this.username = 'Razzaru';
   }
 
