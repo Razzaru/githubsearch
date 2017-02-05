@@ -1,4 +1,4 @@
-# Angular QuickStart Source
+# Github Searcher
 
 Hi! This is the simple github profile search app made with Angular quickstart.
 
