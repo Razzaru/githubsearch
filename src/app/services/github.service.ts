@@ -2,11 +2,13 @@ import { Injectable } from '@angular/core';
 import { Http, Headers } from '@angular/http';
 import 'rxjs/add/operator/map';
 
+import { client_id, client_secret } from '../../env';
+
 @Injectable()
 export class GithubService{
   private username: string;
-  private client_id = '5aacf38914229eac456b';
-  private client_secret = '24d020df6ef0e3000393dd56d7aa2d0090027be3';
+  private client_id = client_id;
+  private client_secret = client_secret;
 
   constructor(private _http: Http) {
     this.username = 'Razzaru';
